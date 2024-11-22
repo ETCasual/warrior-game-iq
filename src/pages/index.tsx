@@ -55,7 +55,7 @@ export default function Home() {
                 return (
                   <div
                     key={k}
-                    className={`flex h-full w-full text-[55px] transition-colors duration-300 ${!data.touched ? "bg-white/20" : v?.correct ? "bg-green-400/30" : "bg-red-400/30"} flex-row items-center justify-center gap-4 rounded-xl border-2 border-gray-500 text-center font-ocean text-white`}
+                    className={`flex h-full w-full text-[55px] transition-colors duration-300 ${!data.touched ? "bg-white/20" : v?.correct ? "bg-green-400/70" : "bg-red-400/70"} flex-row items-center justify-center gap-4 rounded-xl border-2 border-gray-500 text-center font-ocean text-white`}
                   >
                     {v?.word}
                   </div>
@@ -68,5 +68,3 @@ export default function Home() {
     </>
   );
 }
-
-// random add commit
